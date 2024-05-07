@@ -57,7 +57,7 @@ body {
 
 .content-bottom {
     position: absolute;
-    bottom: 0;
+    bottom: -50px;
     display: flex;
     justify-content: center;
     align-items: center;
