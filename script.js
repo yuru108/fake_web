@@ -28,6 +28,7 @@ function addPasswordField() {
 
     mailDiv.style = "margin-top: 40px";
     passwordDiv.style = "margin-top: 40px";
+    document.getElementById('content-bottom').style.bottom = 0;
 
     const passwordLabel = document.createElement('label');
     passwordLabel.textContent = '密碼';
