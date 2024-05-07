@@ -27,7 +27,7 @@ body {
     margin-bottom: 10px;
 }
 
-.content-top {
+.content {
     width: 398px;
     height: 610px;
     padding: 0 48px;
@@ -55,9 +55,9 @@ body {
     outline: none;
 }
 
-.content-button {
-    position: relative;
-    top: 225px;
+.content-bottom {
+    position: absolute;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;

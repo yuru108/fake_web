@@ -12,22 +12,23 @@
     <link rel="apple-touch-icon" href="imgs/weverse_touchicon.png" />
     <meta name="next-head-count" content="8" />
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
 <div class="main-div">
     <div class="img-div">
         <img src="imgs/title.png" width="201">
     </div>
-    <div class="content-top">
+    <div class="content">
         <h1 style="font-size: 26px;">請用Weverse帳號<br>
             登入或註冊會員</h1>
         <form>
-            <div>
+            <div id="mail-div">
                 <label style="font-size: 13px;">電子郵件</label>
                 <input type="text" class="input-box" placeholder="your@email.com" required>
             </div>
         </form>
-        <div class="content-button">
+        <div class="content-bottom">
             <button class="submit-button">
                 <span>使用電子郵件繼續</span>
             </button>
@@ -57,7 +58,7 @@
         </div>
         <div class="footer-language-select">
             <div class="language-icon">
-                <img src="imgs/language-icon.png" alt="language-select" class="language-icon">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAilBMVEUAAAD///+ZmZmSkqSPj5+KlZ+MkpiHkpeKkZiIj5aJj5mHkZeJj5iHkJaIjpeIkZaJj5eJkJiIkJeIjpiHkJaHj5eIjpaIj5eJjpiIj5aIjpaHj5eIjpeHj5eIjpeHj5aHj5eHjpeHjpaIj5eHj5aIjpaHjpaHj5eIjpeHj5aIj5aHjpeHjpaHjpbCgaB5AAAALXRSTlMAAgUOEBgqMUhJUFFSVVZaW2Nlb3eAgYmKi56kpaasu8bX2dzd3uDm8vP4+fuY3DJrAAAArklEQVQoz8WSyQ6CUBRDyyDggMogAiKjqA/p//+eCw2ChKcr7fYkTW97gX9KXR9LcS0PtjpmqxOfqhZvSInIomaWsS7IvTKAERtPE61htELzbgwHnuQGDlMgpYMtuexlqbgDclqAxRwIWL1S2RzJ7mAyhkkHS5qAyxgAYrqAybKDgjrgPzKG9AGd4jsotZUGkp7SK2E+KkFaHxCxCWYTxUOJyMt5YjLp2B/e5Ie6A1v1JhJiB9gQAAAAAElFTkSuQmCC" alt="language-select" class="language-icon">
                 <select class="language-select-option">
                     <option value="zh-tw">中文（繁體）</option>
                     <option value="en">English</option>
